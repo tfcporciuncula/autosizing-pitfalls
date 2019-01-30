@@ -13,6 +13,7 @@
         android:background="@color/colorAccent"
         tools:ignore="UselessParent">
 
+        <!-- Ellipsize -->
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
@@ -24,6 +25,19 @@
             app:autoSizeMaxTextSize="60dp"
             app:autoSizeMinTextSize="40dp"
             app:autoSizeTextType="uniform" />
+
+        <!-- Word Break -->
+        <!--<TextView-->
+            <!--android:id="@+id/textView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:ellipsize="end"-->
+            <!--android:text="@string/magnanimous"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--app:autoSizeMaxTextSize="60dp"-->
+            <!--app:autoSizeMinTextSize="1dp"-->
+            <!--app:autoSizeTextType="uniform" />-->
 
     </FrameLayout>
 

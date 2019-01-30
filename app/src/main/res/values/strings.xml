@@ -3,4 +3,5 @@
     <string name="app_name">Autosizing Pitfalls</string>
 
     <string name="long_sentence">This sentence won\'t fit</string>
+    <string name="magnanimous">magnanimous</string>
 </resources>
